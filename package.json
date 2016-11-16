@@ -1,0 +1,19 @@
+{
+  "name": "img_search",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "expressjs",
+    "freecodecamp"
+  ],
+  "author": "Taylor Milliman",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
