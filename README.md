@@ -1,6 +1,6 @@
 # img_search
 Abstraction layer API to make searching images easier<br/>
-App: [https://imageabstractionlayer.herokuapp.com/]<br/>
+App: https://imageabstractionlayer.herokuapp.com/<br/>
 
 * Built using node, express and mongodb
 * Uses [request-promise](https://github.com/request/request-promise) package
