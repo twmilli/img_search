@@ -5,7 +5,7 @@ var mongo = require("mongodb").MongoClient;
 var db_url = process.env.MONGODB_URI;
 
 var app = express();
-
+app.use(express.static(__dirname + "/View"));
 app.set('port', (process.env.PORT || 8080));
 
 mongo.connect(db_url,function(err,db){

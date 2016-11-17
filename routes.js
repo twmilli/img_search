@@ -7,7 +7,7 @@ router.get('/favicon.ico', function(req, res){
 });
 
 router.get('/', function(req,res){
-    res.end();
+    res.sendFile("index.html");
 });
 
 router.get('/api/imagesearch/:search', query.imgSearch);

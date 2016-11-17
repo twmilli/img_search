@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./styles.css" type="text/css" />
+    </head>
+    <body>
+         <div class="text">
+            <h1>Created By Taylor Milliman</h1>
+            <h3>Example Search Call: </h3>
+            <a href="https://imageabstractionlayer.herokuapp.com/api/imagesearch/cats%20funny?offset=10">https://imageabstractionlayer.herokuapp.com/api/imagesearch/cats%20funny?offset=10</a>
+            <br>
+            <a href="https://imageabstractionlayer.herokuapp.com/api/imagesearch/query?offset=n">https://imageabstractionlayer.herokuapp.com/api/imagesearch/query?offset=n</a>
+            <br>
+            <h3>Example API response</h3>
+            <p class="response">[
+  {
+    "url": "https://pixabay.com/get/e833b80f2ef6033ed95c4518b74f419ee376e5dd04b015469cf4c070a7ecb0_640.jpg",<br>
+    "tags": "cat, ears, hidden",<br>
+    "thumbnail": "https://cdn.pixabay.com/photo/2016/09/23/22/42/cat-1690622_150.jpg",<br>
+    "context": "https://pixabay.com/en/cat-ears-hidden-funny-domestic-cat-1690622/",<br>
+    "author": "Alexas_Fotos"<br>
+  }, ... ]</p>
+        </div>
+        <div>
+            <h3>Example Latest Queries Call: </h3>
+            <h4>Returns 10 most recent queries</h4>
+            <a href="https://imageabstractionlayer.herokuapp.com/api/latest">https://imageabstractionlayer.herokuapp.com/api/latest</a>
+            <h3>Example Response</h3>
+            <p class="response">[
+  {
+    "term": "cats funny",
+    "when": "2016-11-17T21:43:35.359Z"
+  },  ... ]</p>
+            <br>
+            Made possible by <a href="https://pixabay.com/">pixabay.com</a>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+body{
+    font-family: 'PT Sans', sans-serif;
+    background-color: #F5F3EE;
+    color: #7D1935;
+}
+a{
+    color:#4A96AD;
+}
+
+.response{
+    font-size: 20px;
+}
