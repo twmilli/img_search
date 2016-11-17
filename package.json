@@ -17,6 +17,10 @@
     "express": "^4.14.0",
     "request": "^2.78.0",
     "request-promise": "^4.1.1",
-    "rsvp": "^3.3.3"
+    "rsvp": "^3.3.3",
+    "mongodb": "^2.2.11"
+  },
+    "engines": {
+    "node": "4.6.1"
   }
 }
